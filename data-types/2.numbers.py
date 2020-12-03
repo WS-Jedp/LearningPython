@@ -26,11 +26,11 @@ print(type(myFlt)) # <class float>
 myFlt = float(3.65489)
 print(type(myFlt)) # <class float>
 
-# An important functionality of the floating numbers is the character "e", that will help us to create scientific numbers indicating the power of 10
+## An important functionality of the floating numbers is the character "e", that will help us to create scientific numbers indicating the power of 10
 myFlt = float(2.36e10) 
 print(type(myFlt)) # <class float>
 
-# Complex
+## Complex
 # We can create complext numbers with Python with the character "j" representing the imaginary part
 myCpx = complex(5j)
 print(type(myCpx)) # <class 'complex'>
@@ -38,7 +38,7 @@ print(type(myCpx)) # <class 'complex'>
 myCpx = complex(3+5j)
 print(type(myCpx)) # <class 'complex'>
 
-# Random Number
+## Random Number
 # Python by himself doesn't bring a built-in function of generate a random number, but we can ipmort a built-in module that will help us to create reandom numbers
 import random
 print(random.randrange(1,10))
